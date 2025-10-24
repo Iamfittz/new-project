@@ -34,7 +34,7 @@ git merge development
 ## Step 7: Push to GitHub
 ```
 git remote add origin https://github.com/YOUR_USERNAME/new-project.git
-git branch -m master
-git push -u origin master
+git branch -M main
+git push -u origin main
 git push origin development
 ```
